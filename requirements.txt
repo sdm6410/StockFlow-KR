@@ -3,4 +3,4 @@ numpy
 requests
 beautifulsoup4
 plotly
-FinanceDataReader
+finance-datareader
