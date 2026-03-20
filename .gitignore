@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+*.log
+sector_analysis_results.csv
+sector_stock_details.csv
