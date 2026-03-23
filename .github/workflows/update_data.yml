@@ -2,7 +2,9 @@ name: Daily K-StockFlow Update
 
 on:
   schedule:
-    - cron: '0 9 * * 1-5'
+    - cron: '0 0 * * 1-5'   # 09:00 KST (장시작)
+    - cron: '0 3 * * 1-5'   # 12:00 KST (정오)
+    - cron: '30 6 * * 1-5'  # 15:30 KST (장종료)
   workflow_dispatch:
 
 jobs:
